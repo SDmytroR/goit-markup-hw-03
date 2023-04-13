@@ -171,6 +171,8 @@ img {
 /* Hero Title */
 
 .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
     text-align: center;
     background-color: var(--accent-color);
 }
@@ -178,7 +180,6 @@ img {
 .hero-title {
     width: 496px;
     margin: auto;
-    padding-top: 188px;
     padding-bottom: 48px;
     font-family: var(--primary-font);
     font-style: normal;
