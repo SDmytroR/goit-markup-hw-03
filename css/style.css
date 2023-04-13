@@ -119,13 +119,12 @@ img {
 /* ul */
 .header-list {
     display: flex;
-}
-
-/* li */
-.header-item {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
+/* li */
+.header-item {}
 
 .header-item:not(:last-child) {
     margin-right: 40px;
