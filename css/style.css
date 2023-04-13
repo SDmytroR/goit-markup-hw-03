@@ -71,6 +71,7 @@ img {
     margin-right: auto;
     margin-left: auto;
     max-width: 1158px;
+    padding: 0 15px;
 }
 
 .logo {
@@ -93,16 +94,20 @@ img {
     color: #2E2F42;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .header-link {
@@ -125,6 +130,11 @@ img {
     display: flex;
 }
 
+.heafer-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .header-item:not(:last-child) {
     margin-right: 40px;
 }
@@ -135,6 +145,7 @@ img {
 
 .contacts-list {
     display: flex;
+    gap: 40px;
 }
 
 .contacts-item {
