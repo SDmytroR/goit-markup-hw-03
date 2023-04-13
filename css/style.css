@@ -119,7 +119,6 @@ img {
 /* ul */
 .header-list {
     display: flex;
-    padding: 24px 0;
 }
 
 /* li */
@@ -129,6 +128,7 @@ img {
 
 /* a */
 .header-link {
+    padding: 24px 0;
     display: inline-block;
     font-family: var(--primary-font);
     font-style: normal;
