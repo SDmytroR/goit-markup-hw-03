@@ -65,7 +65,21 @@ img {
     display: block;
 }
 
-/* Page Header */
+/**
+  |============================
+  | Header
+  |============================
+*/
+/* header */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+/* div */
+.header-container {
+    display: flex;
+    align-items: center;
+}
 
 .container {
     margin-right: auto;
@@ -75,6 +89,13 @@ img {
     padding-right: 15px;
 }
 
+/* nav */
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+/* a */
 .logo {
     margin-right: 76px;
     font-family: var(--secondary-font);
@@ -95,20 +116,22 @@ img {
     color: #2E2F42;
 }
 
-.header {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container {
+/* ul */
+.header-list {
     display: flex;
-    align-items: center;
 }
 
-.header-nav {
-    display: flex;
-    align-items: center;
+/* li */
+.header-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
+.header-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+/* a */
 .header-link {
     display: inline-block;
     font-family: var(--primary-font);
@@ -125,18 +148,6 @@ img {
     color: #404BBF;
 }
 
-.header-list {
-    display: flex;
-}
-
-.heafer-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.header-item:not(:last-child) {
-    margin-right: 40px;
-}
 
 .contacts {
     margin-left: auto;
