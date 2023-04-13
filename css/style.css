@@ -431,20 +431,33 @@ img {
 
 
 
-/* Portfolio */
-/* Site nav */
-
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
+/**
+  |============================
+  | Site nav
+  |============================
+*/
+/* section */
 .site-nav {
     margin: auto;
+    padding-top: 96px;
+    padding-bottom: 120px;
     width: 585px;
 }
 
+/* ul */
 .btn-nav {
-    margin-top: 96px;
+    margin-bottom: 72px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 24px;
 }
 
+/* button */
 .list-btn {
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
@@ -468,6 +481,7 @@ img {
 .list-btn:focus {
     background-color: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 
 
