@@ -241,14 +241,19 @@ img {
 /* section */
 .about {
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
+/* ul */
 .about-list {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
+/* h3 */
 .about-name {
+    margin-bottom: 8px;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
@@ -258,6 +263,7 @@ img {
     color: var(--accent-color);
 }
 
+/* p */
 .info {
     width: 264px;
     padding-top: 8px;
