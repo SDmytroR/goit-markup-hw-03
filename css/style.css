@@ -382,8 +382,12 @@ img {
     color: #434455;
 }
 
-/* Footer */
-
+/**
+  |============================
+  | Footer
+  |============================
+*/
+/* footer */
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -397,14 +401,35 @@ img {
     background-color: var(--accent-color);
 }
 
+/* a */
+.footer-logo {
+    margin-right: 76px;
+    margin-bottom: 16px;
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: inline-block;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+/* span */
+.footer-logo-span {
+    color: #F4F4FD;
+}
+
+/* p */
 .footer-subtitle {
     width: 264px;
     margin-top: 16px;
 }
 
-.footer-logo {
-    color: #F4F4FD;
-}
+
 
 /* Portfolio */
 /* Site nav */
