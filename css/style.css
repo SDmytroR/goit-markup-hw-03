@@ -32,6 +32,12 @@
     --secondary-font: 'Raleway', sans-serif;
 }
 
+.body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
 .list {
     list-style: none;
     padding: 0;
@@ -193,8 +199,9 @@ img {
 /* h1 */
 .hero-title {
     max-width: 496px;
-    margin: auto;
-    padding-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 700;
@@ -266,7 +273,6 @@ img {
 /* p */
 .info {
     width: 264px;
-    padding-top: 8px;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
@@ -288,7 +294,6 @@ img {
 
 /* h2 */
 .projects-team {
-    margin-top: 120px;
     margin-bottom: 72px;
     font-family: var(--primary-font);
     font-style: normal;
@@ -315,7 +320,6 @@ img {
 */
 /* section */
 .team {
-    margin-top: 120px;
     padding-bottom: 120px;
     padding-top: 120px;
     background-color: #F4F4FD;
@@ -357,7 +361,6 @@ img {
 
 /* h3 */
 .name-worker {
-    margin-top: 32px;
     margin-bottom: 8px;
     font-family: var(--primary-font);
     font-style: normal;
@@ -371,7 +374,6 @@ img {
 
 /* p */
 .info-name-worker {
-    padding-bottom: 32px;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
@@ -458,7 +460,7 @@ img {
 
 /* button */
 .list-btn {
-    padding: 12px 24px;
+    padding: 11px 23px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     font-family: var(--primary-font);
@@ -499,7 +501,6 @@ img {
 
 /* li */
 .portfolio-item {
-    /* width: 360px; */
     width: calc((100% - 48px) / 3);
 }
 
@@ -508,14 +509,11 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 /* h2 */
 .title-portfolio {
-    margin-top: 32px;
     margin-bottom: 8px;
-    padding-left: 16px;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
@@ -527,8 +525,6 @@ img {
 
 /* p */
 .description {
-    padding-left: 16px;
-    padding-bottom: 32px;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 400;
