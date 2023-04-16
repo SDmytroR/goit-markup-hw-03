@@ -62,7 +62,6 @@ p {
 
 ul,
 ol {
-    margin: 0;
     padding: 0;
     list-style: none;
 }
@@ -160,11 +159,6 @@ img {
 .contacts-list {
     display: flex;
     gap: 40px;
-}
-
-/* li */
-.contacts-item {
-    margin-left: 40px;
 }
 
 /* a */
@@ -319,7 +313,6 @@ img {
 .projects-list__team {
     gap: 24px;
     display: flex;
-    justify-content: space-between;
 }
 
 /**
@@ -414,7 +407,6 @@ img {
 
 /* a */
 .footer-logo {
-    margin-right: 76px;
     margin-bottom: 16px;
     font-family: var(--secondary-font);
     font-style: normal;
@@ -437,7 +429,6 @@ img {
 /* p */
 .footer-subtitle {
     width: 264px;
-    margin-top: 16px;
 }
 
 
@@ -469,10 +460,10 @@ img {
 
 /* button */
 .list-btn {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 23px;
+    padding-right: 23px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     font-family: var(--primary-font);
